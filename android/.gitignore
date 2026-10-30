@@ -1,0 +1,19 @@
+
+# Flutter / Android build files
+.gradle/
+**/gradle-wrapper.jar
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+
+# Social login configuration - keep out of GitHub
+/lib/core/config/social_login_config.dart
+/android/app/src/main/res/values/social_login.xml
+
+# Signing keys - never publicly share your keystore
+key.properties
+**/*.keystore
+**/*.jks

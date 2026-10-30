@@ -1,0 +1,71 @@
+```gitignore
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+# Uncomment the next line if you want to ignore VS Code settings
+# .vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Gradle files
+.gradle/
+**/local.properties
+gradle-wrapper.jar
+/gradlew
+/gradlew.bat
+/captures/
+GeneratedPluginRegistrant.java
+.cxx/
+
+# Signing keys - never commit private signing files
+key.properties
+**/*.keystore
+**/*.jks
+
+# Social login configuration - keep local configuration out of GitHub
+/lib/core/config/social_login_config.dart
+/android/app/src/main/res/values/social_login.xml
+
+# Keep example templates tracked
+!/lib/core/config/social_login_config.example.dart
+
+# Widget Preview
+.widget_preview/
+```
